@@ -13,6 +13,8 @@
 		C815006625DCF1CE008249F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C815006425DCF1CE008249F3 /* Main.storyboard */; };
 		C815006825DCF1D2008249F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C815006725DCF1D2008249F3 /* Assets.xcassets */; };
 		C815006B25DCF1D2008249F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C815006925DCF1D2008249F3 /* LaunchScreen.storyboard */; };
+		D9E1BC5C25FC892900B6B7D7 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1BC5B25FC892900B6B7D7 /* CustomView.swift */; };
+		D9E1BC6025FC919B00B6B7D7 /* tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D9E1BC5F25FC919B00B6B7D7 /* tone.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C815006725DCF1D2008249F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C815006A25DCF1D2008249F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C815006C25DCF1D2008249F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E1BC5B25FC892900B6B7D7 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		D9E1BC5F25FC919B00B6B7D7 /* tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tone.mp3; path = ../../../../../../Downloads/tone.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		C815005D25DCF1CE008249F3 /* Tic Tac Toe */ = {
 			isa = PBXGroup;
 			children = (
+				D9E1BC5E25FC918D00B6B7D7 /* MP3 */,
+				D9E1BC5A25FC890700B6B7D7 /* Custom View */,
 				C815005E25DCF1CE008249F3 /* AppDelegate.swift */,
 				C815006025DCF1CE008249F3 /* SceneDelegate.swift */,
 				C815006225DCF1CE008249F3 /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				C815006C25DCF1D2008249F3 /* Info.plist */,
 			);
 			path = "Tic Tac Toe";
+			sourceTree = "<group>";
+		};
+		D9E1BC5A25FC890700B6B7D7 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1BC5B25FC892900B6B7D7 /* CustomView.swift */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		D9E1BC5E25FC918D00B6B7D7 /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1BC5F25FC919B00B6B7D7 /* tone.mp3 */,
+			);
+			path = MP3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E1BC6025FC919B00B6B7D7 /* tone.mp3 in Resources */,
 				C815006B25DCF1D2008249F3 /* LaunchScreen.storyboard in Resources */,
 				C815006825DCF1D2008249F3 /* Assets.xcassets in Resources */,
 				C815006625DCF1CE008249F3 /* Main.storyboard in Resources */,
@@ -138,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C815006325DCF1CE008249F3 /* ViewController.swift in Sources */,
+				D9E1BC5C25FC892900B6B7D7 /* CustomView.swift in Sources */,
 				C815005F25DCF1CE008249F3 /* AppDelegate.swift in Sources */,
 				C815006125DCF1CE008249F3 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.softradix.Tic-Tac-Toe";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.test.tic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +336,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.softradix.Tic-Tac-Toe";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.test.tic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

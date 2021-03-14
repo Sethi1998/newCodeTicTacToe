@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Tic Tac Toe
 //
-//  Created by Soft Radix on 17/02/21.
+//  Created by Caksu Sethi on 13/03/21.
 //
 
 import UIKit
